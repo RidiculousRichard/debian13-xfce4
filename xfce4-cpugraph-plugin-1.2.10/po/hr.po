@@ -1,0 +1,285 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Edin Veskovic <edin.lockedin@gmail.com>, 2019
+# Edin Veskovic <edin.lockedin@gmail.com>, 2014
+# Ivica  Kolić <ikoli@yahoo.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: Xfce Panel Plugins\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-19 01:16+0200\n"
+"PO-Revision-Date: 2013-07-03 18:54+0000\n"
+"Last-Translator: Edin Veskovic <edin.lockedin@gmail.com>, 2019\n"
+"Language-Team: Croatian (http://app.transifex.com/xfce/xfce-panel-plugins/language/hr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: ../panel-plugin/cpu.cc:168 ../panel-plugin/cpugraph.desktop.in.h:2
+msgid "Graphical representation of the CPU load"
+msgstr "Grafički prikaz opterećenja CPU-a"
+
+#: ../panel-plugin/cpu.cc:648
+#, c-format
+msgid "CPU usage: %.1f%%"
+msgstr ""
+
+#: ../panel-plugin/properties.cc:72
+msgid ""
+"'Overall' is showing the impact on the overall performance of the machine."
+msgstr ""
+
+#: ../panel-plugin/properties.cc:73
+msgid ""
+"'Hotspots' is showing the momentary performance impact on just the threads "
+"involved in suboptimal SMT scheduling decisions."
+msgstr ""
+
+#: ../panel-plugin/properties.cc:108
+msgid "CPU Graph Properties"
+msgstr "Svojstva CPU grafa"
+
+#: ../panel-plugin/properties.cc:112
+msgid "_Close"
+msgstr "_Zatvori"
+
+#: ../panel-plugin/properties.cc:140
+msgid "Run in terminal"
+msgstr "Pokreni u treminalu"
+
+#: ../panel-plugin/properties.cc:146
+msgid "Use startup notification"
+msgstr "Obavijesti pri pokretanju"
+
+#: ../panel-plugin/properties.cc:153
+msgid ""
+"Color used to highlight potentially suboptimal\n"
+"placement of threads on CPUs with SMT"
+msgstr ""
+
+#: ../panel-plugin/properties.cc:156
+msgid "Highlight suboptimal SMT scheduling"
+msgstr ""
+
+#: ../panel-plugin/properties.cc:162
+msgid "SMT issues color:"
+msgstr ""
+
+#: ../panel-plugin/properties.cc:167
+msgid "Use non-linear time-scale"
+msgstr "Koristi nelinearno vremensko mjerilo"
+
+#: ../panel-plugin/properties.cc:172
+msgid "Per-core history graphs"
+msgstr ""
+
+#: ../panel-plugin/properties.cc:180
+msgid "Color 1:"
+msgstr "Boja 1:"
+
+#: ../panel-plugin/properties.cc:183
+msgid "Color 2:"
+msgstr "Boja 2:"
+
+#: ../panel-plugin/properties.cc:186
+msgid "Color 3:"
+msgstr "Boja 3:"
+
+#: ../panel-plugin/properties.cc:189
+msgid "System:"
+msgstr ""
+
+#: ../panel-plugin/properties.cc:192
+msgid "User:"
+msgstr ""
+
+#: ../panel-plugin/properties.cc:195
+msgid "Nice:"
+msgstr ""
+
+#: ../panel-plugin/properties.cc:198
+msgid "IO wait:"
+msgstr ""
+
+#: ../panel-plugin/properties.cc:201
+msgid "Background:"
+msgstr "Pozadina:"
+
+#: ../panel-plugin/properties.cc:207
+msgid "Show current usage bar"
+msgid_plural "Show current usage bars"
+msgstr[0] "Pokaži traku trenutne upotrebe"
+msgstr[1] "Pokaži trake trenutnih upotreba"
+msgstr[2] "Pokaži trake trenutnih upotreba"
+
+#: ../panel-plugin/properties.cc:213
+msgid "Bars color:"
+msgstr "Boja traka:"
+
+#: ../panel-plugin/properties.cc:218
+msgid "Show frame"
+msgstr "Pokaži okvir"
+
+#: ../panel-plugin/properties.cc:223
+msgid "Show border"
+msgstr "Pokaži rub"
+
+#: ../panel-plugin/properties.cc:234
+msgid "Appearance"
+msgstr "Izgled"
+
+#: ../panel-plugin/properties.cc:235
+msgid "Advanced"
+msgstr "Napredno"
+
+#: ../panel-plugin/properties.cc:236
+msgid "Stats"
+msgstr ""
+
+#: ../panel-plugin/properties.cc:367
+msgid "Fastest (~250ms)"
+msgstr "Najbrže  (~250ms)"
+
+#: ../panel-plugin/properties.cc:368
+msgid "Fast (~500ms)"
+msgstr "Brzo (~500ms)"
+
+#: ../panel-plugin/properties.cc:369
+msgid "Normal (~750ms)"
+msgstr "Normalno (~750ms)"
+
+#: ../panel-plugin/properties.cc:370
+msgid "Slow (~1s)"
+msgstr "Sporo (~1s)"
+
+#: ../panel-plugin/properties.cc:371
+msgid "Slowest (~3s)"
+msgstr ""
+
+#: ../panel-plugin/properties.cc:374
+msgid "Update Interval:"
+msgstr "Interval osvježavanja:"
+
+#: ../panel-plugin/properties.cc:386
+msgid "All"
+msgstr "Sve"
+
+#: ../panel-plugin/properties.cc:390
+msgid "Tracked Core:"
+msgstr "Praćena jezgra:"
+
+#: ../panel-plugin/properties.cc:406
+msgid "Width:"
+msgstr "Dužina:"
+
+#: ../panel-plugin/properties.cc:408
+msgid "Height:"
+msgstr "Visina:"
+
+#: ../panel-plugin/properties.cc:421
+msgid "Threshold (%):"
+msgstr ""
+
+#: ../panel-plugin/properties.cc:433
+msgid "Spacing:"
+msgstr ""
+
+#: ../panel-plugin/properties.cc:436
+msgid "Spacing between per-core history graphs"
+msgstr ""
+
+#: ../panel-plugin/properties.cc:447
+msgid "Associated command:"
+msgstr "Pridružena naredba:"
+
+#: ../panel-plugin/properties.cc:455
+msgid "The command to run when the plugin is left-clicked."
+msgstr ""
+
+#: ../panel-plugin/properties.cc:456
+msgid "If not specified, it defaults to xfce4-taskmanager, htop or top."
+msgstr ""
+
+#: ../panel-plugin/properties.cc:484
+msgid "Disabled"
+msgstr "Onemogućeno"
+
+#: ../panel-plugin/properties.cc:485
+msgid "Normal"
+msgstr "Normalno"
+
+#: ../panel-plugin/properties.cc:486
+msgid "LED"
+msgstr "LED"
+
+#: ../panel-plugin/properties.cc:487
+msgid "No history"
+msgstr "Nema povijesti"
+
+#: ../panel-plugin/properties.cc:488
+msgid "Grid"
+msgstr "Rešetka"
+
+#: ../panel-plugin/properties.cc:501
+msgid "Mode:"
+msgstr "Način:"
+
+#: ../panel-plugin/properties.cc:533
+msgid "Solid"
+msgstr "Puna"
+
+#: ../panel-plugin/properties.cc:534
+msgid "Gradient"
+msgstr "Gradijent"
+
+#: ../panel-plugin/properties.cc:535
+msgid "Fire"
+msgstr "Vatra"
+
+#: ../panel-plugin/properties.cc:537
+msgid "Detailed"
+msgstr ""
+
+#: ../panel-plugin/properties.cc:542
+msgid "Color mode: "
+msgstr "Način boje:"
+
+#: ../panel-plugin/properties.cc:652
+msgid "SMT detected: Yes"
+msgstr ""
+
+#: ../panel-plugin/properties.cc:652
+msgid "SMT detected: No"
+msgstr ""
+
+#: ../panel-plugin/properties.cc:677
+#, c-format
+msgid "Number of SMT scheduling incidents: %u"
+msgstr ""
+
+#: ../panel-plugin/properties.cc:682
+msgid "Estimated performance impact:"
+msgstr ""
+
+#: ../panel-plugin/properties.cc:683
+#, c-format
+msgid "Overall: %.3g%%"
+msgstr ""
+
+#: ../panel-plugin/properties.cc:684
+#, c-format
+msgid "Hotspots: %.3g%%"
+msgstr ""
+
+#: ../panel-plugin/properties.cc:696
+msgid "SMT detected: N/A"
+msgstr ""
+
+#: ../panel-plugin/cpugraph.desktop.in.h:1
+msgid "CPU Graph"
+msgstr "CPU graf"

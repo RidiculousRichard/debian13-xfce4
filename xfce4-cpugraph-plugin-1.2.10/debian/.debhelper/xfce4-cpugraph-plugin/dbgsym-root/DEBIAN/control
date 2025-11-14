@@ -1,0 +1,13 @@
+Package: xfce4-cpugraph-plugin-dbgsym
+Source: xfce4-cpugraph-plugin
+Version: 1.2.10-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 884
+Depends: xfce4-cpugraph-plugin (= 1.2.10-1)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for xfce4-cpugraph-plugin
+Build-Ids: 2f6ee8bd1f4edfe62bffd50df00adda1910eec02

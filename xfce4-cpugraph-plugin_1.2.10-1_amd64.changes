@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Mon, 01 Jan 2024 20:40:44 -0500
+Source: xfce4-cpugraph-plugin
+Binary: xfce4-cpugraph-plugin xfce4-cpugraph-plugin-dbgsym
+Architecture: amd64
+Version: 1.2.10-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Changed-By: Unit 193 <unit193@debian.org>
+Description:
+ xfce4-cpugraph-plugin - CPU load graph plugin for the Xfce4 panel
+Changes:
+ xfce4-cpugraph-plugin (1.2.10-1) unstable; urgency=medium
+ .
+   * Team upload.
+   * New upstream version 1.2.10.
+Checksums-Sha1:
+ 417d355c4677f5a13c89ec6918cacc3bed8ebb55 890124 xfce4-cpugraph-plugin-dbgsym_1.2.10-1_amd64.deb
+ 3ece41fb299e373300814e5a505f04c42f9e92de 15504 xfce4-cpugraph-plugin_1.2.10-1_amd64.buildinfo
+ 72a1f2d7715fea177559cd9a8979943c97a5ca2a 109684 xfce4-cpugraph-plugin_1.2.10-1_amd64.deb
+Checksums-Sha256:
+ e368b3e45552d5e9da790942179a671a8f048255a09027f741d1621c29366ebb 890124 xfce4-cpugraph-plugin-dbgsym_1.2.10-1_amd64.deb
+ b57ebd8b068fa7ef184490a03602d4153ef1201148ee61275f7f5110852a65d2 15504 xfce4-cpugraph-plugin_1.2.10-1_amd64.buildinfo
+ 6b36e0e5deeda8d96925ec447903d6d207589ef797e35fa79a61e636f100be54 109684 xfce4-cpugraph-plugin_1.2.10-1_amd64.deb
+Files:
+ 67093f030fbd61cb083f1067378abba6 890124 debug optional xfce4-cpugraph-plugin-dbgsym_1.2.10-1_amd64.deb
+ 6ff33f4b177c13f5879cd4d511d765d8 15504 xfce optional xfce4-cpugraph-plugin_1.2.10-1_amd64.buildinfo
+ ee5dbb05f4bf1d37bc827654afb9199c 109684 xfce optional xfce4-cpugraph-plugin_1.2.10-1_amd64.deb
