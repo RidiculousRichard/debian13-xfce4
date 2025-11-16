@@ -371,15 +371,17 @@ CPUGraph::set_bars_size ()
 
     shadow_width = has_frame ? 2*1 : 0;
 
+    gint bars_size = (CORE_USAGE_BAR_THICKNESS + CORE_USAGE_BAR_SEPARATION) * nb_bars() - CORE_USAGE_BAR_SEPARATION + shadow_width;
+
     if (bars.orientation == GTK_ORIENTATION_HORIZONTAL)
     {
-        h = 6 * nb_bars () - 2 + shadow_width;
+        h = bars_size;
         v = -1;
     }
     else
     {
         h = -1;
-        v = 6 * nb_bars () - 2 + shadow_width;
+        v = bars_size;
     }
 
     gtk_widget_set_size_request (bars.frame, h, v);
@@ -846,9 +848,9 @@ draw_bars_cb (cairo_t *cr, const shared_ptr<CPUGraph> &base)
 
         xfce4::cairo_set_source_rgba (cr, base->colors[BARS_COLOR]);
         if (horizontal)
-            cairo_rectangle (cr, 0, size-usage, 4, usage);
+            cairo_rectangle (cr, 0, size-usage, CORE_USAGE_BAR_THICKNESS, usage);
         else
-            cairo_rectangle (cr, 0, 0, usage, 4);
+            cairo_rectangle (cr, 0, 0, usage, CORE_USAGE_BAR_THICKNESS);
         cairo_fill (cr);
     }
     else
@@ -879,10 +881,13 @@ draw_bars_cb (cairo_t *cr, const shared_ptr<CPUGraph> &base)
                 active_color = color;
             }
 
+            // Caclulate the bar pitch
+            guint pitch = CORE_USAGE_BAR_THICKNESS + CORE_USAGE_BAR_SEPARATION;
+
             if (horizontal)
-                cairo_rectangle (cr, 6*i, size-usage, 4, usage);
+                cairo_rectangle (cr, pitch*i, size-usage, CORE_USAGE_BAR_THICKNESS, usage);
             else
-                cairo_rectangle (cr, 0, 6*i, usage, 4);
+                cairo_rectangle (cr, 0, pitch*i, usage, CORE_USAGE_BAR_THICKNESS);
             fill = true;
         }
         if (fill)

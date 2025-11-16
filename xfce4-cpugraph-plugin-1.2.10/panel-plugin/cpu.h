@@ -48,6 +48,8 @@ constexpr auto NONLINEAR_MODE_BASE = 1.04;
 constexpr auto PER_CORE_SPACING_DEFAULT = 1;
 constexpr auto PER_CORE_SPACING_MAX = 3;
 constexpr auto PER_CORE_SPACING_MIN = 0;
+constexpr auto CORE_USAGE_BAR_THICKNESS = 2;
+constexpr auto CORE_USAGE_BAR_SEPARATION = 1;
 
 enum CPUGraphMode
 {
