@@ -4,17 +4,17 @@ Binary: xfce4-cpugraph-plugin xfce4-cpugraph-plugin-dbgsym
 Architecture: amd64
 Version: 1.2.10-1
 Checksums-Md5:
- 67093f030fbd61cb083f1067378abba6 890124 xfce4-cpugraph-plugin-dbgsym_1.2.10-1_amd64.deb
- ee5dbb05f4bf1d37bc827654afb9199c 109684 xfce4-cpugraph-plugin_1.2.10-1_amd64.deb
+ d58e5e920adccb4a912f1dc08d011455 890456 xfce4-cpugraph-plugin-dbgsym_1.2.10-1_amd64.deb
+ cc0314f2460f4a15ae5b6452fec36922 109568 xfce4-cpugraph-plugin_1.2.10-1_amd64.deb
 Checksums-Sha1:
- 417d355c4677f5a13c89ec6918cacc3bed8ebb55 890124 xfce4-cpugraph-plugin-dbgsym_1.2.10-1_amd64.deb
- 72a1f2d7715fea177559cd9a8979943c97a5ca2a 109684 xfce4-cpugraph-plugin_1.2.10-1_amd64.deb
+ 9bcb6435fcf9c2ef456c9431ae9fd58feaab3e3c 890456 xfce4-cpugraph-plugin-dbgsym_1.2.10-1_amd64.deb
+ dec7c3186df95608b0f7634f5699d00446d0c4c8 109568 xfce4-cpugraph-plugin_1.2.10-1_amd64.deb
 Checksums-Sha256:
- e368b3e45552d5e9da790942179a671a8f048255a09027f741d1621c29366ebb 890124 xfce4-cpugraph-plugin-dbgsym_1.2.10-1_amd64.deb
- 6b36e0e5deeda8d96925ec447903d6d207589ef797e35fa79a61e636f100be54 109684 xfce4-cpugraph-plugin_1.2.10-1_amd64.deb
+ 5d15f3fa53be9528ff604086f10860ed8ce21cc60da4750d51551e6a2a6cb5b7 890456 xfce4-cpugraph-plugin-dbgsym_1.2.10-1_amd64.deb
+ 27b5fcb1b0fc25cb1ba52093e67a85c7f6ae333fbcde56f425d9b420751a2338 109568 xfce4-cpugraph-plugin_1.2.10-1_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Fri, 14 Nov 2025 17:02:52 +0000
+Build-Date: Sun, 16 Nov 2025 15:33:24 +0000
 Build-Tainted-By:
  usr-local-has-programs
 Installed-Build-Depends:
