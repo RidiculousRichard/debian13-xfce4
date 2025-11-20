@@ -17,13 +17,13 @@ Changes:
    * New upstream version 1.2.10.
 Checksums-Sha1:
  9bcb6435fcf9c2ef456c9431ae9fd58feaab3e3c 890456 xfce4-cpugraph-plugin-dbgsym_1.2.10-1_amd64.deb
- 257d1bb0f2a888f2fb34f93872239657170862ab 15504 xfce4-cpugraph-plugin_1.2.10-1_amd64.buildinfo
+ 82d17807a3ef64e6696354241b6c33fc61fe047d 15516 xfce4-cpugraph-plugin_1.2.10-1_amd64.buildinfo
  dec7c3186df95608b0f7634f5699d00446d0c4c8 109568 xfce4-cpugraph-plugin_1.2.10-1_amd64.deb
 Checksums-Sha256:
  5d15f3fa53be9528ff604086f10860ed8ce21cc60da4750d51551e6a2a6cb5b7 890456 xfce4-cpugraph-plugin-dbgsym_1.2.10-1_amd64.deb
- 8ad36a8f76c2ff2b2604d7d44448d5cd7144216aa9bf232ce5589b7d7533d69e 15504 xfce4-cpugraph-plugin_1.2.10-1_amd64.buildinfo
+ 6977cb5f9e4f7e288e8a593088ec934ff48f702be66faec603aed5d205eef981 15516 xfce4-cpugraph-plugin_1.2.10-1_amd64.buildinfo
  27b5fcb1b0fc25cb1ba52093e67a85c7f6ae333fbcde56f425d9b420751a2338 109568 xfce4-cpugraph-plugin_1.2.10-1_amd64.deb
 Files:
  d58e5e920adccb4a912f1dc08d011455 890456 debug optional xfce4-cpugraph-plugin-dbgsym_1.2.10-1_amd64.deb
- 9a3689d195e3b6b7f5e1db58a66c756b 15504 xfce optional xfce4-cpugraph-plugin_1.2.10-1_amd64.buildinfo
+ 4879ab04556a95969ed5931d2a5bc0a6 15516 xfce optional xfce4-cpugraph-plugin_1.2.10-1_amd64.buildinfo
  cc0314f2460f4a15ae5b6452fec36922 109568 xfce optional xfce4-cpugraph-plugin_1.2.10-1_amd64.deb

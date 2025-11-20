@@ -93,7 +93,6 @@ f1e4dbd45074774e4a0bab98400790cb  ./icons/128x128/Makefile.am
 c2ce4c4286f013c6a1158ccba03bd516  ./icons/32x32/Makefile.in
 f8fe6755cbf90cdab67080ad543dc4a1  ./icons/Makefile.in
 f730cd3e47b83b18b9b14b17a55a0765  ./AUTHORS
-e29eda6ef5124ac550ec9f4364342ab4  ./panel-plugin/cpu.h
 0a760e0b968a5a1fcd4f800204c207b8  ./panel-plugin/cpugraph.desktop.in
 3bfb6be91c55744650f94ad6f141b215  ./panel-plugin/os.cc
 c55e7158a421f4dceaee2c300b22390b  ./panel-plugin/Makefile.am
@@ -105,8 +104,9 @@ cd297d90169ed0592eda8c9d42a2521e  ./panel-plugin/settings.h
 158f9b2bb183f729e0c4d587f329ff8a  ./panel-plugin/plugin.h
 6971686ea120642ada168d693754b27f  ./panel-plugin/mode.h
 c586a6facfb05f50c6f5d623457015ba  ./panel-plugin/properties.cc
-87252fa08c84cd83b22efb7c2b3358ee  ./panel-plugin/cpu.cc
 1ebf41b765d7cf2644a3beca2f970bad  ./panel-plugin/plugin.c
+87252fa08c84cd83b22efb7c2b3358ee  ./panel-plugin/cpu.cc
+e29eda6ef5124ac550ec9f4364342ab4  ./panel-plugin/cpu.h
 93b5be394c583ef190c166eeeff68964  ./panel-plugin/Makefile.in
 26ab0db90d72e28ad0ba1e22ee510510  ./.pc/.version
 266f9759f56277b2751b24d1eb17c50f  ./.pc/.quilt_patches

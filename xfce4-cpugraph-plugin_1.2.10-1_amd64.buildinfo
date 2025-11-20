@@ -14,7 +14,7 @@ Checksums-Sha256:
  27b5fcb1b0fc25cb1ba52093e67a85c7f6ae333fbcde56f425d9b420751a2338 109568 xfce4-cpugraph-plugin_1.2.10-1_amd64.deb
 Build-Origin: Debian
 Build-Architecture: amd64
-Build-Date: Sun, 16 Nov 2025 15:33:24 +0000
+Build-Date: Thu, 20 Nov 2025 11:22:00 +0000
 Build-Tainted-By:
  usr-local-has-programs
 Installed-Build-Depends:
@@ -25,7 +25,7 @@ Installed-Build-Depends:
  automake (= 1:1.17-4),
  autopoint (= 0.23.1-2),
  autotools-dev (= 20240727.1),
- base-files (= 13.8+deb13u1),
+ base-files (= 13.8+deb13u2),
  base-passwd (= 3.6.7),
  bash (= 5.2.37-2+b5),
  binutils (= 2.44-3),
@@ -155,7 +155,7 @@ Installed-Build-Depends:
  libcrypt1 (= 1:4.4.38-1),
  libctf-nobfd0 (= 2.44-3),
  libctf0 (= 2.44-3),
- libcups2t64 (= 2.4.10-3+deb13u1),
+ libcups2t64 (= 2.4.10-3+deb13u2),
  libdatrie-dev (= 0.2.13-3+b1),
  libdatrie1 (= 0.2.13-3+b1),
  libdb5.3t64 (= 5.3.28+dfsg2-9),
@@ -296,7 +296,7 @@ Installed-Build-Depends:
  libpam-modules (= 1.7.0-5),
  libpam-modules-bin (= 1.7.0-5),
  libpam-runtime (= 1.7.0-5),
- libpam-systemd (= 257.8-1~deb13u2),
+ libpam-systemd (= 257.9-1~deb13u1),
  libpam0g (= 1.7.0-5),
  libpango-1.0-0 (= 1.56.3-1),
  libpango1.0-dev (= 1.56.3-1),
@@ -339,14 +339,14 @@ Installed-Build-Depends:
  libsm6 (= 2:1.2.6-1),
  libsmartcols1 (= 2.41-5),
  libsqlite3-0 (= 3.46.1-7),
- libssl3t64 (= 3.5.1-1+deb13u1),
+ libssl3t64 (= 3.5.4-1~deb13u1),
  libstartup-notification0 (= 0.12-8),
  libstdc++-14-dev (= 14.2.0-19),
  libstdc++6 (= 14.2.0-19),
  libsysprof-capture-4-dev (= 48.0-2),
- libsystemd-dev (= 257.8-1~deb13u2),
- libsystemd-shared (= 257.8-1~deb13u2),
- libsystemd0 (= 257.8-1~deb13u2),
+ libsystemd-dev (= 257.9-1~deb13u1),
+ libsystemd-shared (= 257.9-1~deb13u1),
+ libsystemd0 (= 257.9-1~deb13u1),
  libtasn1-6 (= 4.20.0-2),
  libthai-data (= 0.1.29-2),
  libthai-dev (= 0.1.29-2+b1),
@@ -361,7 +361,7 @@ Installed-Build-Depends:
  libtsan2 (= 14.2.0-19),
  libubsan1 (= 14.2.0-19),
  libuchardet0 (= 0.0.8-1+b2),
- libudev1 (= 257.8-1~deb13u2),
+ libudev1 (= 257.9-1~deb13u1),
  libunistring5 (= 1.3-2),
  liburi-perl (= 5.30-1),
  libuuid1 (= 2.41-5),
@@ -433,7 +433,7 @@ Installed-Build-Depends:
  libxkbcommon-dev (= 1.7.0-2),
  libxkbcommon0 (= 1.7.0-2),
  libxml-parser-perl (= 2.47-1+b3),
- libxml2 (= 2.12.7+dfsg+really2.9.14-2.1+deb13u1),
+ libxml2 (= 2.12.7+dfsg+really2.9.14-2.1+deb13u2),
  libxrandr-dev (= 2:1.5.4-1+b3),
  libxrandr2 (= 2:1.5.4-1+b3),
  libxrender-dev (= 1:0.9.12-1),
@@ -446,7 +446,7 @@ Installed-Build-Depends:
  libz3-4 (= 4.13.3-1),
  libzstd-dev (= 1.5.7+dfsg-1),
  libzstd1 (= 1.5.7+dfsg-1),
- linux-libc-dev (= 6.12.48-1),
+ linux-libc-dev (= 6.12.57-1),
  login.defs (= 1:4.17.4-2),
  m4 (= 1.4.19-8),
  make (= 4.4.1-2),
@@ -459,8 +459,8 @@ Installed-Build-Depends:
  ncurses-base (= 6.5+20250216-2),
  ncurses-bin (= 6.5+20250216-2),
  netbase (= 6.5),
- openssl (= 3.5.1-1+deb13u1),
- openssl-provider-legacy (= 3.5.1-1+deb13u1),
+ openssl (= 3.5.4-1~deb13u1),
+ openssl-provider-legacy (= 3.5.4-1~deb13u1),
  pango1.0-tools (= 1.56.3-1),
  passwd (= 1:4.17.4-2),
  patch (= 2.8-2),
@@ -483,15 +483,15 @@ Installed-Build-Depends:
  sensible-utils (= 0.0.25),
  sgml-base (= 1.31+nmu1),
  shared-mime-info (= 2.4-5+b2),
- systemd (= 257.8-1~deb13u2),
- systemd-sysv (= 257.8-1~deb13u2),
+ systemd (= 257.9-1~deb13u1),
+ systemd-sysv (= 257.9-1~deb13u1),
  sysvinit-utils (= 3.14-4),
  tar (= 1.35+dfsg-3.1),
  tzdata (= 2025b-4+deb13u1),
  util-linux (= 2.41-5),
  uuid-dev (= 2.41-5),
  wayland-protocols (= 1.44-1),
- x11-common (= 1:7.7+24),
+ x11-common (= 1:7.7+24+deb13u1),
  x11proto-dev (= 2024.1-1),
  xfce4-dev-tools (= 4.20.0-2),
  xfconf (= 4.20.0-1),
@@ -506,5 +506,5 @@ Installed-Build-Depends:
  zlib1g-dev (= 1:1.3.dfsg+really1.3.1-1+b1)
 Environment:
  DEB_BUILD_OPTIONS="parallel=24"
- LANG="C.UTF-8"
+ LANG="en_GB.UTF-8"
  SOURCE_DATE_EPOCH="1704159644"
